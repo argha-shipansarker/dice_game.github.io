@@ -21,7 +21,7 @@ const roll_sound = new Audio('sounds/dice_roll.wav');
 const roll_button_funtion = (value) => {
     ludu.riya = Math.ceil(Math.random()*6);
     ludu.bot = Math.ceil(Math.random()*6);
-    dice_image_delete_function();
+    // dice_image_delete_function();
     dice_image_show_function();
     winner_calculate_function(ludu.riya, ludu.bot);
     show_result_value_funtion();
@@ -84,3 +84,4 @@ const show_result_notice_funtion = () => {
 // Event listeners
 
 roll_button.addEventListener('click', roll_button_funtion);
+document.querySelector('#reset').addEventListener('click', dice_image_delete_function);
