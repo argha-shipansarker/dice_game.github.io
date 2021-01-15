@@ -43,10 +43,10 @@ const dice_image_show_function = () => {
     let image_parant = document.querySelector('.dice-image-show');
     let riya_image = document.createElement('img');
     let bot_image = document.createElement('img');
-    riya_image.setAttribute('src', `/images/dice${ludu.riya}.png`)
+    riya_image.setAttribute('src', `/images/dice${ludu.riya}.PNG`)
     riya_image.setAttribute('id', 'riya-image');
     image_parant.appendChild(riya_image);
-    bot_image.src = `/images/dice${ludu.bot}.png`;
+    bot_image.src = `/images/dice${ludu.bot}.PNG`;
     bot_image.id = 'bot-image';
     image_parant.appendChild(bot_image);
 }
