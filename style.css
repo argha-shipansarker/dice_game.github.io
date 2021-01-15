@@ -1,0 +1,18 @@
+.header-div {
+  text-align: center;
+}
+.play-result-div {
+  text-align: center;
+}
+.player-info {
+  display: flex;
+  justify-content: space-around;
+}
+.dice-image-show {
+  display: flex;
+  justify-content: space-around;
+}
+.dice-image-show img {
+  height: 200px;
+  width: 200px;
+}
